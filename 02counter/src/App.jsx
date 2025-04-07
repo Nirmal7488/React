@@ -10,9 +10,12 @@ function App() {
   //let counter = 5
 
   const addValue = ()=>{
-    if(counter<20)
-    setCounter(counter+1)
-    
+    if(counter<20){
+      setCounter((prevCounter)=>prevCounter+1)//we have to use a callback function to do similar kind of task
+      setCounter((prevCounter)=>prevCounter+1)
+      setCounter((prevCounter)=>prevCounter+1)
+      setCounter((prevCounter)=>prevCounter+1)
+    }
   }
 
   const removeValue = ()=>{
