@@ -1,10 +1,10 @@
 import Chai from "./Chai"
+import JokeGenerator from "./Joke"
 function App() {
   let username = "Nirmal"
   return(
     <>
-    <h1>Welcome {username}</h1>
-    <Chai/>
+    <JokeGenerator/>
     </> 
   )
 }

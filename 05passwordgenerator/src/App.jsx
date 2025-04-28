@@ -1,4 +1,4 @@
-import { use, useState, useCallback, useEffect, useRef} from "react";
+import {useState, useCallback, useEffect, useRef} from "react";
 
 import "./App.css";
 
@@ -55,7 +55,7 @@ function App() {
           <div className="flex item-center gap-x-1">
             <input
               type="range"
-              min={6}
+              min={8}
               max={64}
               value={length}
               className="cursor-pointer"
